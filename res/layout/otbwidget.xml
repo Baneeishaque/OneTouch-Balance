@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_weight="4">
+
+
+
+
+
+    <Button
+        android:id="@+id/callbutt"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/buttonshape"
+        android:layout_marginRight="2dp"
+        android:text="callb"/>
+
+    <Button
+        android:id="@+id/smsbutt"
+        android:layout_weight="1"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/buttonshape"
+        android:layout_marginRight="2dp"
+        android:text="smsb"/>
+
+    <Button
+        android:id="@+id/databutt"
+        android:layout_weight="1"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/buttonshape"
+        android:layout_marginRight="2dp"
+        android:text="datab"/>
+    <Button
+        android:id="@+id/splbutt"
+        android:layout_weight="1"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/buttonshape"
+        android:text="care"/>
+</LinearLayout>
+
+
+
+
