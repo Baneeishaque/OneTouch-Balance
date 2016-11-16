@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class HomeActivity extends Activity {
 
@@ -30,5 +32,10 @@ public class HomeActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void click(View v)
+	{
+		Toast.makeText(getApplicationContext(), "Coming Soon", Toast.LENGTH_SHORT).show();
 	}
 }
